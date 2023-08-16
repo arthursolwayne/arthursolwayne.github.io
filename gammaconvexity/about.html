@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+	<meta charset = "utf-8" />
+	<meta name = "Description" content = "Welcome to Gamma Convexity! We are a research journal dedicated to providing in-depth analysis on the latest developments in Quant Finance, Policy, and Fintech."/>
+	<meta name = "Keywords" content = "quant,quant finance,finance,macroeconomics,microeconomics,ERM,Enterprise Risk Management,options,options liquidity, liquidity,Research,quantitative research,HFT,algorithmic trading,trading,software development,ai,artificial Intelligence,machine learning,quantum finance,quantum physics"/>
+	<meta property="og:title" content="Gamma Convexity" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="images/thumbnail.png" />
+	<meta property="og:url" content="https://gammaconvexity.com/" />
+	<meta property="og:description" content="Welcome to Gamma Convexity! We are a research journal dedicated to providing in-depth analysis on the latest developments in Quant Finance, Policy, and Fintech." />
+	<meta name="google-site-verification" content="MSH9LAnZ6jhoLgAyn8hC51K5IIAhpgsTyEMcH_RrFLE" />
+	<title>Gamma Convexity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="about-styles.css">
+</head>
+<body style="background-color:#262626;">
+	<div class="container fade-in">
+		<div class="nav-wrapper">
+			<div class="left-side" id = "menuList">
+				<div class="nav-link-wrapper">
+					<a href="index.html">Home</a>
+				</div>
+
+				<div class="nav-link-wrapper active-nav-link">
+					<a href="about.html">About</a>
+				</div>
+			</div>
+			<div class="right-side">
+				<div class="social-media">
+					
+					<a href="https://twitter.com/gammaconvexity">
+						<img src = images/twitter.png>
+					</a>
+					<a href="https://github.com/GammaConvexity/">
+						<img src = images/github.png>
+					</a>
+					<a href="https://www.linkedin.com/company/gamma-convexity">
+						<img src = images/linkedin.png>
+					</a>
+				</div>
+			</div>
+			<!-- for mobile w screen size < 1000px -->
+			<div class="menu" onclick="togglemenu()">
+				<a class = "material-icons menu-list">menu</a>
+			</div>
+		</div>
+		<div class="aboutus">
+			<div class="about-wrapper">
+				About Us
+			</div>
+		</div>
+
+		<div class="banner-logo">
+			<img src = images/gctext.png >
+		</div>	
+		<div class="blog-wrapper">
+			<div class="filler1"></div>
+			<div class="blog-entry">
+				<div class="gammaconvexity">
+					<img src = "images/mainlogo.png">
+				</div>
+				<div class="text-content">
+					<div class="abt">
+					Welcome to Gamma Convexity! We are a research journal dedicated to providing in-depth analysis on the latest developments in Quant Finance, Policy, and Fintech.
+					</div>
+					<br>
+					<div class="abt">
+						Please feel free to contact us about anything.
+					</div>
+					<br>
+					<div class="abt">
+						Email: team@gammaconvexity.com
+					</div>
+				</div>
+			</div>
+			<div class="filler2"></div>
+		</div>
+		<div class="foot-wrapper">
+			<div class="foot-text">
+				© 2021 Gamma Convexity LLC
+			</div>
+			<div class="foot-logo">
+				<a href="index.html">
+					<img src = images/mainlogo.png>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var menuList = document.getElementById("menuList");
+		menuList.style.maxHeight = "0px";
+		function togglemenu(){
+			if(menuList.style.maxHeight == "0px"){
+				menuList.style.maxHeight = "400px";
+			}
+			else{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+	<meta charset = "utf-8" />
+	<meta name = "Description" content = "Welcome to Gamma Convexity! We are a research journal dedicated to providing in-depth analysis on the latest developments in Quant Finance, Policy, and Fintech."/>
+	<meta name = "Keywords" content = "quant,quant finance,finance,macroeconomics,microeconomics,ERM,Enterprise Risk Management,options,options liquidity, liquidity,Research,quantitative research,HFT,algorithmic trading,trading,software development,ai,artificial Intelligence,machine learning,quantum finance,quantum physics"/>
+	<meta property="og:title" content="Gamma Convexity" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="images/thumbnail.png" />
+	<meta property="og:url" content="https://gammaconvexity.com/" />
+	<meta property="og:description" content="Welcome to Gamma Convexity! We are a research journal dedicated to providing in-depth analysis on the latest developments in Quant Finance, Policy, and Fintech." />
+	<meta name="google-site-verification" content="MSH9LAnZ6jhoLgAyn8hC51K5IIAhpgsTyEMcH_RrFLE" />
+	<title>Gamma Convexity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:#262626;">
+	<div class="container fade-in">
+		<div class="nav-wrapper" id="home">
+			<div class="left-side" id = "menuList">
+				<div class="nav-link-wrapper active-nav-link">
+					<a href="index.html">Home</a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="about.html">About</a>
+				</div>
+			</div>
+			<div class="right-side">
+				<div class="social-media">
+					
+					<a href="https://twitter.com/gammaconvexity">
+						<img src = images/twitter.png>
+					</a>
+					<a href="https://github.com/GammaConvexity/">
+						<img src = images/github.png>
+					</a>
+					<a href="https://www.linkedin.com/company/gamma-convexity">
+						<img src = images/linkedin.png>
+					</a>
+				</div>
+			</div>
+			<!-- for mobile w screen size < 1000px -->
+			<div class="menu" onclick="togglemenu()">
+				<a class = "material-icons menu-list">menu</a>
+			</div>
+		</div>
+		<div class="homepage-wrapper">
+			<div class="banner-img-background">
+				<img src =" images/geometric_brownian.png">
+			</div>
+			<div class="banner-img-background-mobile">
+				<img src =" images/geometric_brownian-mobile.png">
+			</div>
+			<div class="banner-text">
+				Come quant, come all.
+			</div>
+			<div class="explore-button">
+				<a href="#blog">
+					<img src = "images/explore_button.png">
+				</a>
+			</div>
+			<div class="logo-wrapper">
+				<a href="index.html">
+					<img src = images/bottom-right.png>
+				</a>
+			</div>
+		</div>
+		<div class="blog-wrapper" id ="blog">
+			<div class="blog-background">
+				<img src = "images/geometric_brownian_inverse.png">
+			</div>
+			<div class="blog-background-mobile">
+				<img src = "images/geometric_brownian_inverse-mobile.png">
+			</div>
+			<a href = "index.html#home" class = "material-icons floating-btn">arrow_back_ios</a>
+			<div class="spacing"></div>
+			<a href = "ev-policy.html">
+				<div class="blog-entry">
+					<div class="image-wrapper">
+						<img src = "images/ev-policy.png"> <!-- Must be WxH 400x300 -->
+					</div>
+					<div class="text-container">
+						<div class="title">Electric Vehicle Subsidies: a Formal Policy Analysis</div>
+					 	<div class="subtitle">On the necessity of widespread EV subsidy adoption</div> 
+						<div class="author">By Arthur Wayne</div>
+						<div class="date"> February 28, 2020</div>
+					</div>
+				</div>
+			</a>
+			<a href = "triplex.html">
+				<div class="blog-entry">
+					<div class="image-wrapper">
+						<img src = "images/triplex.png"> <!-- Must be WxH 400x300 -->
+					</div>
+					<div class="text-container">
+						<div class="title">Triplex: the Advent of Three Weekly Options Expirations</div>
+						<div class="subtitle">Justifying the existence of option liquidity premia on short tenor index options</div>
+						<div class="author">By Arthur Wayne</div>
+						<div class="date"> January 21, 2021</div>
+					</div>
+				</div>
+			</a>
+			<a href = "ai-erm.html">
+				<div class="blog-entry">
+					<div class="image-wrapper">
+						<img src = "images/ai-erm.png"> <!-- Must be WxH 400x300 -->
+					</div>
+					<div class="text-container">
+						<div class="title">Artificial Intelligence as a Tool for Financial Risk Management</div>
+						<div class="subtitle">An exploration of A.I. implementation into ERM frameworks</div> 
+						<div class="author">By Arthur Wayne</div>
+						<div class="date"> December 21, 2020</div>
+					</div>
+				</div>
+			</a>
+			<a href = "2020-ubs-hack.html">
+				<div class="blog-entry">
+					<div class="image-wrapper">
+						<img src = "images/ubs.png"> <!-- Must be WxH 400x300 -->
+					</div>
+					<div class="text-container">
+						<div class="title">2020 UBS Quant Hackathon</div>
+					 	<div class="subtitle">Our Model, Results and Reflections from the 2020 UBS Quant Hackathon</div> 
+						<div class="author">By Arthur Wayne</div>
+						<div class="date"> November 13, 2020</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="foot-wrapper">
+			<div class="foot-text">
+				© 2021 Gamma Convexity LLC
+			</div>
+			<div class="foot-logo">
+				<a href="index.html">
+					<img src = images/mainlogo.png>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var menuList = document.getElementById("menuList");
+		menuList.style.maxHeight = "0px";
+		function togglemenu(){
+			if(menuList.style.maxHeight == "0px"){
+				menuList.style.maxHeight = "400px";
+			}
+			else{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+	</script>
+
+</body>
+</html>
