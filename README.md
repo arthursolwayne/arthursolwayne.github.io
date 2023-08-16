@@ -6,6 +6,6 @@ Built using JS, HTML/CSS, and some elements from HTML5UP.
 
 or
 
-<a href = "https://gammaconvexity.github.io/">GammaConvexity.github.io</a>
+<a href = "https://arthursolwayne.github.io/">arthursolwayne.github.io</a>
 
-![alt text](https://github.com/GammaConvexity/GammaConvexity.github.io/blob/main/sample.gif)
+![alt text](https://github.com/arthursolwayne/arthursolwayne.github.io/blob/main/sample.gif)
