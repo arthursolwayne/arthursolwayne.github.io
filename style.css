@@ -109,7 +109,7 @@ footer {
 #publications a {
     color: inherit;
     /* Uses the default text color */
-    text-decoration: none;
+    /* text-decoration: none; */
     /* Removes underline */
     font-weight: bold;
     /* Keeps emphasis */
