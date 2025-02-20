@@ -28,20 +28,6 @@ body {
     margin-bottom: 2rem;
 }
 
-.profile-container a {
-    color: inherit;
-    /* Uses the default text color */
-    /* text-decoration: none; */
-    /* Removes underline */
-    font-weight: bold;
-    /* Keeps emphasis */
-}
-
-.profile-container a:hover {
-    text-decoration: underline;
-    /* Adds underline on hover for clarity */
-}
-
 /* Headshot styling */
 .headshot {
     width: 220px;
@@ -88,6 +74,15 @@ section h2 {
     margin-bottom: 1rem;
     font-weight: 700;
     /* Make headings bolder */
+}
+
+#about a {
+    color: inherit;       /* Same inherited color */
+    font-weight: bold;    /* Same emphasis */
+}
+
+#about a:hover {
+    text-decoration: underline;  /* Underline on hover for clarity */
 }
 
 /* List style */
