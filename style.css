@@ -28,7 +28,7 @@ body {
     margin-bottom: 2rem;
 }
 
-profile-container a {
+.profile-container a {
     color: inherit;
     /* Uses the default text color */
     /* text-decoration: none; */
@@ -37,7 +37,7 @@ profile-container a {
     /* Keeps emphasis */
 }
 
-profile-container a:hover {
+.profile-container a:hover {
     text-decoration: underline;
     /* Adds underline on hover for clarity */
 }
