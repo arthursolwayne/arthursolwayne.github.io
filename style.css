@@ -78,7 +78,8 @@ section h2 {
 
 #about a {
     color: inherit;       /* Same inherited color */
-    font-weight: bold;    /* Same emphasis */
+    text-decoration: none;
+    
 }
 
 #about a:hover {
