@@ -116,6 +116,17 @@ footer {
     text-decoration: underline;
 }
 
+.tiny-globe-container {
+    /* You can change these dimensions to whatever you like */
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    /* Scale it down to make it “super tiny” */
+    transform: scale(0.25);
+    /* Adjust the origin so that it shrinks from the top-left corner */
+    transform-origin: top left;
+}
+
 #publications a {
     color: inherit;
     /* Uses the default text color */
