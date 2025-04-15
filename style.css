@@ -117,9 +117,8 @@ footer {
 }
 
 .tiny-globe-container {
-    /* You can change these dimensions to whatever you like */
-    width: 100px;
-    height: 100px;
+    width: 5px;
+    height: 5px;
     overflow: hidden;
     /* Scale it down to make it “super tiny” */
     transform: scale(0.25);
